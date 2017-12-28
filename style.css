@@ -1,0 +1,41 @@
+body {
+	background-image: url(images/shattered-island.gif);
+	background-repeat: repeat;
+	color:  #FF7F50;
+}
+
+
+h1{
+	font-family: 'Bungee Shade', cursive;
+
+}
+
+#quote{
+	font-size: 1.50rem;
+}
+
+p,
+ul{
+	font-family: 'Rasa', cursive;
+	font-size: 1.25rem;
+}
+
+hr{
+	border-width: 3px;
+	border-color: #0d0d0d;
+}
+
+.container{
+	width: 500px;
+	text-align: center;
+	padding-top: 100px; 
+}
+
+.quote-box{
+	color: LightGray;
+	margin: 0 auto;
+    width: 500px; 
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
