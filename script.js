@@ -39,11 +39,5 @@ $('.share-quote').on('click', function(even){
 	window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(quote.innerHTML + ' --' +author.innerHTML));
 })
 
-var reqTimer = setTimeout(function wakeUp() {
-   request("https://stormy-eyrie-94780.herokuapp.com/index.html", function() {
-      console.log("WAKE UP DYNO");
-   });
-   return reqTimer = setTimeout(wakeUp, 1200000);
-}, 1200000);
 
 });
